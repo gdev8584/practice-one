@@ -15,8 +15,7 @@
   .slick-dots li button:before {
     color: rgb(130, 126, 126) !important;
     font-size: 10px !important;
-    margin-top: -180px;
-    z-index: 999;
+    margin-top: 10px;
   }
   .slick-dots li.slick-active button:before {
     color: rgb(0, 0, 0) !important;
@@ -51,7 +50,7 @@
   .ax {
     text-decoration: none;
   }
-  @media (max-width:1000px) {
+  @media (max-width:800px) {
     .btn-aa {
       display: none;
     }

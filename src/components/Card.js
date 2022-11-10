@@ -14,7 +14,7 @@ export default function Card({data}) {
       <div style={{ 
         margin: 30,
         position:"absolute",
-        top:"80%",
+        top:"70%",
         right:0,
         zIndex:1
          }} className="btn-aa">

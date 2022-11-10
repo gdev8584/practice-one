@@ -13,7 +13,7 @@ function App() {
 
   const clikID = (bodyType) => {
     if(bodyType === "all"){
-      setFilteredData(cars);
+      setFilteredData(data);
     }else{
       let x = data.filter((item) => item.bodyType === bodyType);
       setFilteredData(x);
