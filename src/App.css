@@ -1,0 +1,59 @@
+.slick-slider {
+    /* background-color: aquamarine; */
+    padding-left: 20px;
+  }
+  
+  .slick-prev {
+    z-index: 1;
+    /* background-color: red !important; */
+  }
+  .slick-next {
+    z-index: 1;
+    /* background-color: red !important; */
+  }
+  
+  .slick-dots li button:before {
+    color: rgb(130, 126, 126) !important;
+    font-size: 10px !important;
+    margin-top: -180px;
+    z-index: 999;
+  }
+  .slick-dots li.slick-active button:before {
+    color: rgb(0, 0, 0) !important;
+    /* font-size: 12px !important; */
+  }
+  .rotateImg {
+    transform: rotate(180deg);
+  }
+  .aa {
+    color: rgb(107, 96, 96);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: medium;
+  }
+  .ba {
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+  }
+  .bb{
+    color: rgb(107, 96, 96);
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: large;
+  }
+  .ca {
+    color: rgb(40, 74, 240);
+    font-weight: 650;
+    font-size: larger;
+    text-transform: uppercase;
+  }
+  .ax {
+    text-decoration: none;
+  }
+  @media (max-width:1000px) {
+    .btn-aa {
+      display: none;
+    }
+  }
+  
